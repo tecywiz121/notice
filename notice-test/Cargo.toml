@@ -1,0 +1,7 @@
+[package]
+name = "notice-test"
+version = "0.1.0"
+authors = ["Sam Wilson <tecywiz121@hotmail.com>"]
+
+[dependencies]
+notice = { version = "0.1.0", path = "../notice" }
