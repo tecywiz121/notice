@@ -1,0 +1,16 @@
+[package]
+name = "notice"
+version = "0.1.0"
+authors = ["Sam Wilson <tecywiz121@hotmail.com>"]
+
+[dependencies]
+cfg-if = "0.1"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+notice-eventfd = { path = "../notice-eventfd", version = "0.1.0" }
+
+[target.'and(cfg(unix), not(target_os = "linux"))'.dependencies]
+notice-pipe = { path = "../notice-pipe", version = "0.1.0" }
+
+[dev-dependencies]
+notice-test = { path = "../notice-test", version = "0.1.0" }

@@ -1,3 +1,3 @@
 [workspace]
-members = ["notice-core", "notice-eventfd", "notice-pipe", "notice-test"]
-default-members = ["notice-core"]
+members = ["notice", "notice-core", "notice-eventfd", "notice-pipe", "notice-test"]
+default-members = ["notice", "notice-core"]
