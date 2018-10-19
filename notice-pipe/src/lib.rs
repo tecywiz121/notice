@@ -1,8 +1,8 @@
 extern crate nix;
-extern crate notice;
+extern crate notice_core;
 
 pub mod prelude {
-    pub use super::notice::{Notify, Wait};
+    pub use super::notice_core::{Notify, Wait};
 }
 
 use prelude::*;
@@ -12,7 +12,7 @@ use nix::errno::Errno;
 use nix::unistd;
 use nix::fcntl::OFlag;
 
-use notice::Unicast;
+use notice_core::Unicast;
 
 use std::os::unix::io::{AsRawFd, FromRawFd, RawFd, IntoRawFd};
 use std::io;

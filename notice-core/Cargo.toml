@@ -1,5 +1,5 @@
 [package]
-name = "notice"
+name = "notice-core"
 version = "0.1.0"
 authors = ["Sam Wilson <tecywiz121@hotmail.com>"]
 

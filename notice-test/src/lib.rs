@@ -1,8 +1,8 @@
 #![deny(unused)]
 
-extern crate notice;
+extern crate notice_core;
 
-use notice::{Notify, Wait};
+use notice_core::{Notify, Wait};
 
 use std::thread;
 
