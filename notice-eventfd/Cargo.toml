@@ -2,6 +2,7 @@
 name = "notice-eventfd"
 version = "0.1.0"
 authors = ["Sam Wilson <tecywiz121@hotmail.com>"]
+license = "MPL-2.0"
 
 [dependencies]
 notice-core = { path = "../notice-core", version = "0.1.0" }
